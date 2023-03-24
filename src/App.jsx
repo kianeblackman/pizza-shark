@@ -26,7 +26,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
-      <div className='green'></div>
+      <div className='green'>Hello</div>
       <div className='red'></div>
       <div className='blue'></div>
     </div>
