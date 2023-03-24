@@ -6,7 +6,9 @@ import logo from './Assets/svg/pizza-shark-logo.svg';
 function App() {
   return (
     <div>
-      <img src={logo} alt='Pizza Shark Logo' className='logo' />
+      <div className='logo'>
+        <img src={logo} alt='Pizza Shark Logo' />
+      </div>
       <Navbar />
     </div>
   );

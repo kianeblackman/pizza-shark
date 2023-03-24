@@ -11,12 +11,12 @@ $primary-red: #dc2626;
       font-size: 1.2rem;
       font-weight: 600;
       cursor: pointer;
-      &:hover {
-        color: #fff;
-      }
-      span {
-        color: $primary-red;
-      }
+      // &:hover {
+      //   color: #fff;
+      // }
+    }
+    span {
+      color: $primary-red;
     }
   }
   .hr-heavy {

@@ -10,10 +10,7 @@
   font-weight: 600;
   cursor: pointer;
 }
-.navbar ul li:hover {
-  color: #fff;
-}
-.navbar ul li span {
+.navbar ul span {
   color: #dc2626;
 }
 .navbar .hr-heavy {
