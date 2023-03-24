@@ -10,6 +10,9 @@ function App() {
         <img src={logo} alt='Pizza Shark Logo' />
       </div>
       <Navbar />
+      <div className='green'></div>
+      <div className='red'></div>
+      <div className='blue'></div>
     </div>
   );
 }

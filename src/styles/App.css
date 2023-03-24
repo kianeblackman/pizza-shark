@@ -6,4 +6,19 @@ body {
 .logo {
   display: flex;
   justify-content: center;
+}
+
+.green {
+  background-color: green;
+  height: 1000px;
+}
+
+.red {
+  background-color: red;
+  height: 1000px;
+}
+
+.blue {
+  background-color: blue;
+  height: 1000px;
 }/*# sourceMappingURL=App.css.map */
