@@ -4,6 +4,8 @@ import '../../Styles/Navbar.css';
 export default function Navbar() {
   return (
     <div className='navbar'>
+      <hr className='hr-heavy'/>
+      <hr className='hr-light'/>
       <ul>
         <li>Home</li>
         <span>+</span>
@@ -15,6 +17,8 @@ export default function Navbar() {
         <span>+</span>
         <li>Contact</li>
       </ul>
+      <hr className='hr-light'/>
+      <hr className='hr-heavy'/>
     </div>
   );
 }

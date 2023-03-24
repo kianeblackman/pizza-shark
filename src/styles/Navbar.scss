@@ -19,4 +19,12 @@ $primary-red: #dc2626;
       }
     }
   }
+  .hr-heavy {
+    border: 3px solid $primary-red;
+    width: 100%;
+  }
+  .hr-light {
+    border: 1px solid $primary-red;
+    width: 100%;
+  }
 }

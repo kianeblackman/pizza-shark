@@ -15,4 +15,12 @@
 }
 .navbar ul li span {
   color: #dc2626;
+}
+.navbar .hr-heavy {
+  border: 3px solid #dc2626;
+  width: 100%;
+}
+.navbar .hr-light {
+  border: 1px solid #dc2626;
+  width: 100%;
 }/*# sourceMappingURL=Navbar.css.map */
