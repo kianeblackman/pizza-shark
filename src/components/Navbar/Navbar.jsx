@@ -1,24 +1,35 @@
 import React from 'react';
 import '../../Styles/Navbar.css';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <div className='navbar'>
-      <hr className='hr-heavy'/>
-      <hr className='hr-light'/>
+      <hr className='hr-heavy' />
+      <hr className='hr-light' />
       <ul>
-        <li>Home</li>
+        <li>
+          <Link to='/'>Home</Link>
+        </li>
         <span>+</span>
-        <li>Menu</li>
+        <li>
+          <Link to='/menu'>Menu</Link>
+        </li>
         <span>+</span>
-        <li>Book a Table</li>
+        <li>
+          <Link to='/book-a-table'>Book a Table</Link>
+        </li>
         <span>+</span>
-        <li>Gallery</li>
+        <li>
+          <Link to='/gallery'>Gallery</Link>
+        </li>
         <span>+</span>
-        <li>Contact</li>
+        <li>
+          <Link to='/contact'>Contact</Link>
+        </li>
       </ul>
-      <hr className='hr-light'/>
-      <hr className='hr-heavy'/>
+      <hr className='hr-light' />
+      <hr className='hr-heavy' />
     </div>
   );
 }

@@ -2,12 +2,14 @@ import './Styles/App.css';
 import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import logo from './Assets/svg/pizza-shark-logo.svg';
-import { Router, Route, Routes } from 'react-router-dom';
-import Home from './Pages/Home/Home';
+import { Route, Routes } from 'react-router-dom';
+
 import Menu from './Pages/Menu/Menu';
 import BookATable from './Pages/BookATable/BookATable';
 import Gallery from './Pages/Gallery/Gallery';
 import Contact from './Pages/Contact/Contact';
+import NotFound from './Pages/NotFound/NotFound';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
