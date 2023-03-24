@@ -1,0 +1,22 @@
+$primary-red: #dc2626;
+
+.navbar {
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    li {
+      color: $primary-red;
+      font-size: 1.2rem;
+      font-weight: 600;
+      cursor: pointer;
+      &:hover {
+        color: #fff;
+      }
+      span {
+        color: $primary-red;
+      }
+    }
+  }
+}
