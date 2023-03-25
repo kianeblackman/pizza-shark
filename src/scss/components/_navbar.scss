@@ -2,7 +2,6 @@
 
 .navbar {
   background-color: colours.$primary-background;
-  padding-top: 10px;
   width: 100%;
   position: sticky;
   top: 0px;
@@ -33,10 +32,8 @@
   }
   .hr-heavy {
     border: 3px solid colours.$primary-red;
-    width: 100%;
   }
   .hr-light {
     border: 1px solid colours.$primary-red;
-    width: 100%;
   }
 }

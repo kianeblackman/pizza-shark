@@ -13,6 +13,15 @@ export default function Home() {
           <OrderHereButton />
         </div>
       </section>
+      <section className='highlight-section'>
+        <div className='highlight-content'>
+          <h1>
+            You're gonna need a<br />
+            bigger belt.
+          </h1>
+          <OrderHereButton />
+        </div>
+      </section>
     </div>
   );
 }

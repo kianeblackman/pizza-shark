@@ -14,7 +14,7 @@ import NotFound from './Pages/NotFound/NotFound';
 
 // Import Components
 import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
+import Navbar from './Components/Header/Navbar';
 
 // Import Styles
 import './scss/styles.css';
@@ -23,6 +23,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/menu' element={<Menu />} />
@@ -31,7 +32,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
