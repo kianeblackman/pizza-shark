@@ -2,7 +2,6 @@
 
 // Import Statments
 import React from 'react';
-import Navbar from './Components/Header/Navbar';
 import { Route, Routes } from 'react-router-dom';
 
 // Import Pages
@@ -15,6 +14,7 @@ import NotFound from './Pages/NotFound/NotFound';
 
 // Import Components
 import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 
 // Import Styles
 import './scss/styles.css';
@@ -31,6 +31,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
