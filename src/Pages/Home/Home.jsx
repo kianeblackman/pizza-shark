@@ -1,5 +1,13 @@
 import React from 'react';
+import OrderHereButton from '../../Components/Buttons/OrderHereButton';
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div className='home-page'>
+      <div>
+        <h1>You're gonna need a bigger belt.</h1>
+        <OrderHereButton />
+      </div>
+    </div>
+  );
 }

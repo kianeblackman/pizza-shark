@@ -1,0 +1,21 @@
+@use '../abstracts/colours';
+
+.order-here-button {
+  button {
+    background-color: colours.$primary-red;
+    color: colours.$primary-background;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 5px 5px #ff6969;
+    transition: all ease-in 0.05s;
+    cursor: pointer;
+    &:hover {
+      box-shadow: none;
+      transform: translateY(4px);
+      transition: all ease-in 0.05s;
+    }
+  }
+}
