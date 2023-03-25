@@ -9,24 +9,24 @@ import {
 export default function Footer() {
   return (
     <div className='footer'>
-      <div className='marquee'>
-        <div className='contact-container'>
+      <ul className='infinite-marquee'>
+        <li>
           <AiFillPhone />
           <h3>0845 054 3500</h3>
-        </div>
-        <div className='contact-container'>
+        </li>
+        <li>
           <AiFillHome />
           <h3>Hartlepool, Cleveland St TS24 7LH</h3>
-        </div>
-        <div className='contact-container'>
+        </li>
+        <li>
           <AiFillMail />
           <h3>pizzashark@gmail.com</h3>
-        </div>
-        <div className='contact-container'>
+        </li>
+        <li>
           <AiFillInstagram />
           <h3>@pizza_shark</h3>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   );
 }
