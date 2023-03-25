@@ -11,23 +11,33 @@ export default function Navbar() {
       <hr className='hr-light' />
       <ul>
         <li>
-          <Link to='/'>Home</Link>
+          <Link to='/' className='navbar-link'>
+            Home
+          </Link>
         </li>
         <span>+</span>
         <li>
-          <Link to='/menu'>Menu</Link>
+          <Link to='/menu' className='navbar-link'>
+            Menu
+          </Link>
         </li>
         <span>+</span>
         <li>
-          <Link to='/book-a-table'>Book a Table</Link>
+          <Link to='/book-a-table' className='navbar-link'>
+            Book a Table
+          </Link>
         </li>
         <span>+</span>
         <li>
-          <Link to='/gallery'>Gallery</Link>
+          <Link to='/gallery' className='navbar-link'>
+            Gallery
+          </Link>
         </li>
         <span>+</span>
         <li>
-          <Link to='/contact'>Contact</Link>
+          <Link to='/contact' className='navbar-link'>
+            Contact
+          </Link>
         </li>
       </ul>
       <hr className='hr-light' />

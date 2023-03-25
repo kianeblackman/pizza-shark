@@ -13,11 +13,14 @@
     justify-content: center;
     gap: 30px;
     li {
-      &:link,
-      &:visited,
-      &:hover,
-      &:active {
-        text-decoration: none;
+      .navbar-link {
+        &:link,
+        &:visited,
+        &:hover,
+        &:active {
+          text-decoration: none;
+          color: inherit;
+        }
       }
       color: colours.$primary-red;
       font-size: 1.2rem;
