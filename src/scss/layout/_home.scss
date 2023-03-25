@@ -1,15 +1,30 @@
+@use '../abstracts/colours';
+
 .home-page {
-  h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
-    margin-top: 0;
-    text-align: center;
+  .highlight-section {
+    background-color: colours.$primary-green;
+    height: 60vh;
+    margin: 9px;
   }
-  .order-here-button {
+  .highlight-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    height: 100%;
+    h1 {
+      color: colours.$primary-background;
+      font-size: 6rem;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+      margin-top: 0;
+      text-align: center;
+    }
+    .order-here-button {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
   }
 }

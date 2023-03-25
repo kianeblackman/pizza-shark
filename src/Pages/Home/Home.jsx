@@ -4,10 +4,15 @@ import OrderHereButton from '../../Components/Buttons/OrderHereButton';
 export default function Home() {
   return (
     <div className='home-page'>
-      <div className=''>
-        <h1>You're gonna need a bigger belt.</h1>
-        <OrderHereButton />
-      </div>
+      <section className='highlight-section'>
+        <div className='highlight-content'>
+          <h1>
+            You're gonna need a<br />
+            bigger belt.
+          </h1>
+          <OrderHereButton />
+        </div>
+      </section>
     </div>
   );
 }
