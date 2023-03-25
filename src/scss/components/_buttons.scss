@@ -10,12 +10,15 @@
     font-size: 1.2rem;
     font-weight: 600;
     box-shadow: 5px 5px #ff6969;
-    transition: all ease-in 0.05s;
+    transition: all 0.2s ease;
     cursor: pointer;
     &:hover {
       box-shadow: none;
       transform: translateY(4px);
-      transition: all ease-in 0.05s;
+    }
+    .order-here-link {
+      color: colours.$primary-background;
+      text-decoration: none;
     }
   }
 }

@@ -5,7 +5,7 @@ export default function OrderHereButton() {
   return (
     <div className='order-here-button'>
       <button>
-        <Link to='/menu'>Order Here</Link>
+        <Link to='/menu' className='order-here-link'>Order Here</Link>
       </button>
     </div>
   );
