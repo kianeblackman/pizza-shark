@@ -1,5 +1,7 @@
+//* Description: This file exports the Navbar component
+
+// Import Statments
 import React from 'react';
-import '../../Styles/Navbar.css';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {

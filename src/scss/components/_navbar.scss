@@ -1,7 +1,7 @@
-$primary-red: #dc2626;
+@use '../abstracts/colours';
 
 .navbar {
-  background-color: #fefce8;
+  background-color: colours.$primary-background;
   padding-top: 10px;
   width: 100%;
   position: sticky;
@@ -19,21 +19,21 @@ $primary-red: #dc2626;
       &:active {
         text-decoration: none;
       }
-      color: $primary-red;
+      color: colours.$primary-red;
       font-size: 1.2rem;
       font-weight: 600;
       cursor: pointer;
     }
     span {
-      color: $primary-red;
+      color: colours.$primary-red;
     }
   }
   .hr-heavy {
-    border: 3px solid $primary-red;
+    border: 3px solid colours.$primary-red;
     width: 100%;
   }
   .hr-light {
-    border: 1px solid $primary-red;
+    border: 1px solid colours.$primary-red;
     width: 100%;
   }
 }
