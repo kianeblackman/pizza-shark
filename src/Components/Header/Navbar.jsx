@@ -15,25 +15,25 @@ export default function Navbar() {
             Home
           </Link>
         </li>
-        <span>+</span>
+        <span>⨷</span>
         <li>
           <Link to='/menu' className='navbar-link'>
             Menu
           </Link>
         </li>
-        <span>+</span>
+        <span>⨷</span>
         <li>
           <Link to='/book-a-table' className='navbar-link'>
             Book a Table
           </Link>
         </li>
-        <span>+</span>
+        <span>⨷</span>
         <li>
           <Link to='/gallery' className='navbar-link'>
             Gallery
           </Link>
         </li>
-        <span>+</span>
+        <span>⨷</span>
         <li>
           <Link to='/contact' className='navbar-link'>
             Contact

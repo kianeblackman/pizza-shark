@@ -38,7 +38,7 @@ export default function OpenOrClosedSign() {
       <h3>
         We're
         <br />
-        {isOpen ? 'Open' : 'Closed'}
+        <span>{isOpen ? 'Open' : 'Closed'}</span>
       </h3>
     </div>
   );
