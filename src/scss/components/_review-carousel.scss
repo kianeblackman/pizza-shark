@@ -1,6 +1,9 @@
 .review-carousel {
   display: flex;
   flex-direction: row;
-
   overflow-x: auto;
+
+  .review-card {
+    margin: 12px;
+  }
 }

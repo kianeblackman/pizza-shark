@@ -49,44 +49,19 @@
       }
     }
   }
-  .reviews-section {
+
+  .review-section {
     background-color: colours.$primary-green;
-    padding: 6px;
-    .reviews-content {
-      display: flex;
-      flex-direction: row;
-      // flex-wrap: wrap;
-      // justify-content: center;
-      // align-items: center;
-      h2 {
-        color: colours.$primary-black;
-        text-align: center;
-      }
-      .review-container {
-        display: flex;
-        flex-grow: 1;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: colours.$primary-background;
-        border: colours.$primary-black solid 1px;
-        margin: 12px;
-        padding: 6px;
-        border-radius: 12px;
-        box-shadow: 5px 5px colours.$primary-black;
-        h3 {
-          color: colours.$primary-black;
-          text-align: center;
-        }
-        // span {
-        //   font-size: 2rem;
-        //   font-weight: 800;
-        // }
-        p {
-          margin: 6px;
-          color: colours.$primary-black;
-        }
-      }
-    }
+    padding: 12px;
+  }
+  .review-section > h2 {
+    color: colours.$primary-background;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .review-section > h3 {
+    color: colours.$primary-background;
+    text-align: center;
+    margin-bottom: 12px;
   }
 }
