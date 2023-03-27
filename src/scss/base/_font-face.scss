@@ -1,5 +1,8 @@
+@use '../abstracts/colours';
+
 body {
   font-family: 'Space Grotesk', sans-serif;
+  color: colours.$primary-black;
 }
 
 h1 {
@@ -10,6 +13,11 @@ h1 {
 h2 {
   font-size: 3rem;
   font-weight: 500;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
 }
 
 p {
