@@ -49,6 +49,12 @@
       }
     }
   }
+  .footer-section {
+    p {
+      color: colours.$primary-black;
+      text-align: center;
+    }
+  }
 
   .review-section {
     background-color: colours.$primary-green;

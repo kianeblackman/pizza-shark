@@ -26,7 +26,7 @@ export default function Home() {
             <div className=''>
               <p>
                 Welcome to Pizza Shark, where the love for pizza and sharks
-                collide! We're Max, Sam, and Lucy, and we're the proud owners of
+                collide! We're Max 🧑🏾‍🦱, Sam 👩🏽‍🦱, and Lucy 👩🏼‍🦰, and we're the proud owners of
                 this little pizzeria that could.
               </p>
               <p>
