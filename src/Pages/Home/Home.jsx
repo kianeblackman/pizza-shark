@@ -12,18 +12,15 @@ export default function Home() {
     <div className='home-page'>
       <section className='highlight-section'>
         <div className='highlight-content'>
-          <h1>
-            You're gonna need a<br />
-            bigger belt.
-          </h1>
+          <h1>You're gonna need a bigger belt.</h1>
           <OrderHereButton />
         </div>
       </section>
       <section className='our-story-section'>
         <div className='our-story-content'>
-          <h2>Our Story</h2>
           <div className='our-story-body'>
-            <div className=''>
+            <div className='our-story-text'>
+              <h2>Our Story</h2>
               <p>
                 Welcome to Pizza Shark, where the love for pizza and sharks
                 collide! We're Max 🧑🏾‍🦱, Sam 👩🏽‍🦱, and Lucy 👩🏼‍🦰, and we're the proud
@@ -62,7 +59,9 @@ export default function Home() {
                 magic of pizza and sharks. We promise you won't regret it!
               </p>
             </div>
-            <img src={image} alt='Our Story' />
+            <div className='className=our-story-text'>
+              <img src={image} alt='Our Story' />
+            </div>
           </div>
         </div>
       </section>
@@ -71,6 +70,7 @@ export default function Home() {
         <h3>The good, the bad and the ugle.</h3>
         <ReviewCarousel />
       </section>
+      <hr />
       <section className='footer-section'>
         <div className='footer-content'>
           <div className='logo'>

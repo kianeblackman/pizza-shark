@@ -3,70 +3,79 @@
 
 .home-page {
   .highlight-section {
-    background-color: colours.$primary-green;
-    height: 70vh;
-    margin: 9px;
+    height: 60vh;
+    position: relative;
     .highlight-content {
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      height: 100%;
       h1 {
-        color: colours.$primary-background;
+        color: colours.$primary-black;
+        max-width: 70%;
         line-height: 1.2;
         margin-bottom: 1.5rem;
-        margin-top: 0;
         text-align: center;
       }
     }
+    .highlight-content::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30px;
+      background-size: 40px;
+      background-image: radial-gradient(
+        circle at 20px -10px,
+        transparent 24px,
+        colours.$primary-blue 26px
+      );
+    }
   }
   .our-story-section {
+    background-color: colours.$primary-blue;
     .our-story-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      // display: flex;
+      // flex-direction: column;
+      // justify-content: center;
+      // align-items: center;
       h2 {
-        color: colours.$primary-black;
-        text-align: center;
+        color: colours.$primary-background;
       }
       p {
-        max-width: 60rem;
-        margin: 6px;
-        color: colours.$primary-black;
+        color: colours.$primary-background;
       }
       .our-story-body {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        .our-story-text {
+          margin: 12px;
+        }
         img {
-          width: 25%;
-          height: 100%;
-          border: colours.$primary-black solid 3px;
+          width: 100%;
         }
       }
     }
+  }
+  .review-section {
+    padding: 12px;
+  }
+  .review-section > h2 {
+    color: colours.$primary-black;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .review-section > h3 {
+    color: colours.$primary-black;
+    text-align: center;
+    margin-bottom: 12px;
   }
   .footer-section {
     p {
       color: colours.$primary-black;
       text-align: center;
     }
-  }
-  .review-section {
-    background-color: colours.$primary-green;
-    padding: 12px;
-  }
-  .review-section > h2 {
-    color: colours.$primary-background;
-    text-align: center;
-    margin-bottom: 12px;
-  }
-  .review-section > h3 {
-    color: colours.$primary-background;
-    text-align: center;
-    margin-bottom: 12px;
   }
 }
