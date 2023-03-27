@@ -3,6 +3,10 @@ import OrderHereButton from '../../Components/Buttons/OrderHereButton';
 import image from '../../Assets/images/our-story.jpg';
 import logo from '../../Assets/svg/pizza-shark-logo.svg';
 
+import './ReviewCard.jsx';
+import ReviewCard from './ReviewCard.jsx';
+import ReviewCarousel from './ReviewCarousel';
+
 export default function Home() {
   return (
     <div className='home-page'>
@@ -64,44 +68,39 @@ export default function Home() {
       </section>
       <section className='reviews-section'>
         <h2>Reviews</h2>
-        <div className='reviews-content'>
-          <div className='review-container'>
-            <span>🍕🍕🍕🍕🍕</span>
-            <p>
-              I had the pleasure of sinking my teeth into the Jawsome pizza at
-              Pizza Shark and let me tell you, it was fin-tastic! The perfect
-              combination of toppings and cheese. Highly recommend.
-            </p>
-            <h3>- Bruce S</h3>
-          </div>
-          <div className='review-container'>
-            <span>🍕🍕</span>
-            <p>
-              I'm sorry to say that I didn't have a great experience at Pizza
-              Shark. The crust was a bit too chewy for my liking and the service
-              was lacking. Maybe I just had bad luck with my visit.
-            </p>
-            <h3>- Debbie Downer</h3>
-          </div>
-          <div className='review-container'>
-            <span>🍕🍕🍕🍕</span>
-            <p>
-              Pizza Shark is my go-to spot for a slice (or five) of pizza. The
-              Sharknado pizza is my personal favorite - the perfect amount of
-              heat and flavor. Can't recommend this place enough!
-            </p>
-            <h3>- Mike R</h3>
-          </div>
-          <div className='review-container'>
-            <span>🍕🍕</span>
-            <p>
-              The pizza at Pizza Shark was mediocre at best. I've had better
-              frozen pizza from the grocery store. Definitely not worth the
-              price.
-            </p>
-            <h3>- Karen.K</h3>
-          </div>
-        </div>
+        {/* <div className='reviews-content'>
+          <ReviewCard
+            rating='🍕🍕🍕🍕'
+            review='I had the pleasure of sinking my teeth into the Jawsome pizza at Pizza Shark and let me tell you, it was fin-tastic! The perfect combination of toppings and cheese. Highly recommend.'
+            author='Bruce S'
+          />
+          <ReviewCard
+            rating='🍕'
+            review='Im sorry to say that I didnt have a great experience at PizzaShark. The crust was a bit too chewy for my liking and the service was lacking. Maybe I just had bad luck with my visit.'
+            author='Debbie Downer'
+          />
+          <ReviewCard
+            rating='🍕🍕🍕🍕'
+            review='Pizza Shark is my go-to spot for a slice (or five) of pizza. The Sharknado pizza is my personal favorite - the perfect amount of heat and flavor. Cant recommend this place enough!'
+            author='Mike R'
+          />
+          <ReviewCard
+            rating='🍕🍕'
+            review='The pizza at Pizza Shark was mediocre at best. Ive had better frozen pizza from the grocery store. Definitely not worth the price.'
+            author='Karen K'
+          />
+          <ReviewCard
+            rating='🍕🍕'
+            review='The pizza at Pizza Shark was mediocre at best. Ive had better frozen pizza from the grocery store. Definitely not worth the price.'
+            author='Karen K'
+          />
+          <ReviewCard
+            rating='🍕🍕'
+            review='The pizza at Pizza Shark was mediocre at best. Ive had better frozen pizza from the grocery store. Definitely not worth the price.'
+            author='Karen K'
+          />
+        </div> */}
+        <ReviewCarousel />
       </section>
       <section className='footer-section'>
         <div className='footer-content'>

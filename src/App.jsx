@@ -5,12 +5,12 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 // Import Pages
-import Home from './Pages/Home/Home';
-import Menu from './Pages/Menu/Menu';
-import BookATable from './Pages/BookATable/BookATable';
-import Gallery from './Pages/Gallery/Gallery';
-import Contact from './Pages/Contact/Contact';
-import NotFound from './Pages/NotFound/NotFound';
+import Home from './pages/home/Home.jsx';
+import Menu from './pages/menu/Menu';
+import BookATable from './pages/bookATable/BookATable';
+import Gallery from './pages/gallery/Gallery';
+import Contact from './pages/contact/Contact';
+import NotFound from './pages/notFound/NotFound';
 
 // Import Components
 import Header from './Components/Header/Header';
