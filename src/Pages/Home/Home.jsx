@@ -13,13 +13,61 @@ export default function Home() {
           <OrderHereButton />
         </div>
       </section>
-      <section className='highlight-section'>
-        <div className='highlight-content'>
-          <h1>
-            You're gonna need a<br />
-            bigger belt.
-          </h1>
-          <OrderHereButton />
+      <section className='our-story-section'>
+        <div className='our-story-content'>
+          <h2>Our Story</h2>
+          <p>
+            Welcome to Pizza Shark, where the love for pizza and sharks collide!
+            We're Max, Sam, and Lucy, and we're the proud owners of this little
+            pizzeria that could.
+          </p>
+          <p>
+            It all started with a crazy idea - what if we combined our love for
+            pizza with our fascination for sharks? We know, it sounds a bit odd,
+            but stick with us. We found this rundown old building in Brighton
+            that used to be a fish and chip shop and it had a funny shaped roof
+            that looked like a shark's fin. That's when the lightbulb went off -
+            we knew it was meant to be!
+          </p>
+          <p>
+            We spent months renovating the building and turning it into a funky
+            pizzeria with a quirky, shark-themed decor. We even got a
+            custom-built pizza oven in the shape of a shark's head. It was a
+            labor of love, but it was all worth it when we opened our doors to
+            the public.
+          </p>
+          <p>
+            We poured our hearts and souls into Pizza Shark, from perfecting our
+            dough recipe to creating silly puns for our pizza names. We wanted
+            to create a fun and welcoming space where people could enjoy great
+            pizza and have a laugh at the same time.
+          </p>
+          <p>
+            Fast forward a few years, and we're blown away by how much love and
+            support we've received from our community. We've expanded to
+            multiple locations in Brighton, but we've never lost sight of our
+            roots. We're still just a bunch of pizza-loving friends who want to
+            spread joy and laughter with every slice.
+          </p>
+          <p>
+            So come on in, grab a slice, and join us in celebrating the magic of
+            pizza and sharks. We promise you won't regret it!
+          </p>
+        </div>
+      </section>
+      <section className='reviews-section'>
+        <div className='our-story-content'>
+          <h2>Reviews</h2>
+          <p>
+            "I love Pizza Shark! The pizza is delicious and the staff are so
+            friendly. I always feel like I'm part of the family when I come
+            here."
+          </p>
+          <p>
+            "I've been coming here for years and I've never had a bad
+            experience. The pizza is always fresh and the staff are always so
+            helpful and friendly. I love this place!"
+          </p>
         </div>
       </section>
     </div>

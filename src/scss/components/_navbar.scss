@@ -12,19 +12,24 @@
     justify-content: center;
     gap: 30px;
     li {
-      .navbar-link {
-        &:link,
-        &:visited,
-        &:hover,
-        &:active {
-          text-decoration: none;
-          color: inherit;
-        }
-      }
       color: colours.$primary-red;
       font-size: 1.2rem;
       font-weight: 600;
       cursor: pointer;
+      .navbar-link {
+        display: inline-block;
+        position: relative;
+        padding-bottom: 0.25rem;
+        &:link,
+        &:visited,
+        &:active {
+          text-decoration: none;
+          color: inherit;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
     span {
       color: colours.$primary-red;
