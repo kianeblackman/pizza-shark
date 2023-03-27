@@ -66,7 +66,7 @@ export default function Home() {
         <h2>Reviews</h2>
         <div className='reviews-content'>
           <div className='review-container'>
-            <span>“</span>
+            <span>🍕🍕🍕🍕🍕</span>
             <p>
               I had the pleasure of sinking my teeth into the Jawsome pizza at
               Pizza Shark and let me tell you, it was fin-tastic! The perfect
@@ -75,7 +75,7 @@ export default function Home() {
             <h3>- Bruce S</h3>
           </div>
           <div className='review-container'>
-            <span>“</span>
+            <span>🍕🍕</span>
             <p>
               I'm sorry to say that I didn't have a great experience at Pizza
               Shark. The crust was a bit too chewy for my liking and the service
@@ -84,7 +84,7 @@ export default function Home() {
             <h3>- Debbie Downer</h3>
           </div>
           <div className='review-container'>
-            <span>“</span>
+            <span>🍕🍕🍕🍕</span>
             <p>
               Pizza Shark is my go-to spot for a slice (or five) of pizza. The
               Sharknado pizza is my personal favorite - the perfect amount of
@@ -93,7 +93,7 @@ export default function Home() {
             <h3>- Mike R</h3>
           </div>
           <div className='review-container'>
-            <span>“</span>
+            <span>🍕🍕</span>
             <p>
               The pizza at Pizza Shark was mediocre at best. I've had better
               frozen pizza from the grocery store. Definitely not worth the
