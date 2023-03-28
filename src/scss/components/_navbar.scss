@@ -1,0 +1,44 @@
+@use '../abstracts/colours';
+
+.navbar {
+  background-color: colours.$primary-background;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    li {
+      color: colours.$primary-red;
+      font-size: 1.2rem;
+      font-weight: 600;
+      cursor: pointer;
+      .navbar-link {
+        display: inline-block;
+        position: relative;
+        padding-bottom: 0.25rem;
+        &:link,
+        &:visited,
+        &:active {
+          text-decoration: none;
+          color: inherit;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    span {
+      color: colours.$primary-red;
+    }
+  }
+  .hr-heavy {
+    border: 3px solid colours.$primary-red;
+  }
+  .hr-light {
+    border: 1px solid colours.$primary-red;
+  }
+}

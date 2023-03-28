@@ -1,0 +1,13 @@
+.review-carousel {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+
+  .review-card {
+    margin: 16px;
+  }
+}
+
+.review-carousel::-webkit-scrollbar {
+  display: none;
+}

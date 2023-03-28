@@ -1,0 +1,80 @@
+@use '../abstracts/colours';
+@use '../base/font-face';
+
+.home-page {
+  .highlight-section {
+    height: 60vh;
+    position: relative;
+    .highlight-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      h1 {
+        margin-top: -42px;
+        color: colours.$primary-black;
+        max-width: 70%;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+    }
+    .highlight-content::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30px;
+      background-size: 40px;
+      background-image: radial-gradient(
+        circle at 20px -10px,
+        transparent 24px,
+        colours.$primary-blue 26px
+      );
+    }
+  }
+  .our-story-section {
+    background-color: colours.$primary-blue;
+    .our-story-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 12px;
+      .our-story-text {
+        margin-left: 12px;
+        margin-right: 12px;
+        color: colours.$primary-background;
+      }
+      img {
+        max-height: 30rem;
+        object-fit: cover;
+      }
+    }
+  }
+  .review-section {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    hr {
+      border: 1px solid colours.$primary-black;
+      margin-top: 12px;
+    }
+  }
+  .review-section > h2 {
+    color: colours.$primary-black;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .review-section > h3 {
+    color: colours.$primary-black;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .footer-section {
+    p {
+      color: colours.$primary-black;
+      text-align: center;
+    }
+  }
+}

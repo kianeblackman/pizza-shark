@@ -1,0 +1,39 @@
+@use '../abstracts/colours';
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  color: colours.$primary-black;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/*
+
+Space Grotesk
+https://fonts.google.com/specimen/Space+Grotesk?query=Space+Grotesk
+
+Light 300
+Regular 400
+SemiBold 600
+Bold 700
+ExtraBold 800
+
+*/
