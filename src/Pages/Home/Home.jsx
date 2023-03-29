@@ -1,5 +1,5 @@
 import React from 'react';
-import OrderHereButton from '../../components/Buttons/OrderHereButton';
+import OrderHereButton from '../../components/buttons/OrderHereButton';
 import image from '../../Assets/images/our-story.jpg';
 import logo from '../../Assets/svg/pizza-shark-logo.svg';
 
