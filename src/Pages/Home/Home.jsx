@@ -3,7 +3,6 @@ import OrderHereButton from '../../components/buttons/OrderHereButton';
 import image from '../../Assets/images/our-story.jpg';
 import logo from '../../Assets/svg/pizza-shark-logo.svg';
 
-import './ReviewCard.jsx';
 import ReviewCarousel from './ReviewCarousel';
 
 export default function Home() {
