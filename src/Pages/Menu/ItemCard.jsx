@@ -16,6 +16,20 @@ export default function ItemCard() {
       price: 10.99,
       img: 'https://i.imgur.com/4ZQ3Z9M.png',
     },
+    {
+      name: 'asdfasfdasdf',
+      description: 'A pizza with a shark finasasgdfsgadfg on top',
+      category: 'Piagagasgzza',
+      price: 10.99,
+      img: 'https://i.imgur.com/4ZQ3Z9M.png',
+    },
+    {
+      name: 'asdfasfdasdf',
+      description: 'A pizza with a shark finasasgdfsgadfg on top',
+      category: 'Piagagasgzza',
+      price: 10.99,
+      img: 'https://i.imgur.com/4ZQ3Z9M.png',
+    },
   ];
   const itemList = itemArr.map((itemArr) => (
     <div className='item-card'>

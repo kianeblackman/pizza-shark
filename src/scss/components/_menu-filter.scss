@@ -19,6 +19,10 @@
       padding: 0.5rem;
       border: colours.$primary-black 1px solid;
       border-radius: 25rem;
+      &:hover {
+        background-color: colours.$primary-black;
+        color: colours.$primary-background;
+      }
     }
   }
 }
