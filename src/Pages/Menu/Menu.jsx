@@ -22,9 +22,18 @@ export default function Menu() {
         </div>
       </section>
       <section className='menu-section'>
-        <MenuFilter />
+        <MenuFilter className='filter-container' />
       </section>
       <section className='menu-items-section'>
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
         <ItemCard />
       </section>
     </div>
