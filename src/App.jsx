@@ -5,7 +5,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 // Import Pages
-import Home from './pages/home/Home.jsx';
+import Home from './pages/home/Home';
 import Menu from './pages/Menu/Menu';
 import BookATable from './pages/bookATable/BookATable';
 import Gallery from './pages/gallery/Gallery';

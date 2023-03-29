@@ -1,8 +1,12 @@
+// Import Statements
 import React from 'react';
-import OrderHereButton from '../../components/buttons/OrderHereButton';
+
+// Import Images
 import image from '../../Assets/images/our-story.jpg';
 import logo from '../../Assets/svg/pizza-shark-logo.svg';
 
+// Import Components
+import OrderHereButton from '../../components/buttons/OrderHereButton';
 import ReviewCarousel from './ReviewCarousel';
 
 export default function Home() {
@@ -76,9 +80,6 @@ export default function Home() {
             1234 Shark Street, Brighton, UK
             <br />
             01234 567890
-          </p>
-          <p>
-            <a href='mailto:'>[email protected]</a>
           </p>
         </div>
       </section>
