@@ -1,5 +1,8 @@
 import React from 'react';
 
+// Import Components
+import MenuFilter from './MenuFilter';
+
 export default function Menu() {
   return (
     <div>
@@ -15,6 +18,7 @@ export default function Menu() {
             you for choosing Pizza Shark, where the pizza is always a bite above
             the rest!
           </p>
+          <MenuFilter />
         </div>
       </section>
     </div>
