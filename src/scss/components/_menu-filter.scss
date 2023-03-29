@@ -1,0 +1,20 @@
+@use '../abstracts/colours';
+
+.menu-filter-bar {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: sticky;
+  .filter-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    .refine-filter,
+    .sortBy-filter {
+      gap: 2rem;
+      border: colours.$primary-black 1px solid;
+      padding: 0.5rem;
+    }
+  }
+}
