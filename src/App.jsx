@@ -6,7 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 
 // Import Pages
 import Home from './pages/home/Home';
-import Menu from './pages/Menu/Menu';
+import Menu from './pages/menu/Menu';
 import BookATable from './pages/bookATable/BookATable';
 import Gallery from './pages/gallery/Gallery';
 import Contact from './pages/contact/Contact';
