@@ -2,6 +2,7 @@ import React from 'react';
 
 // Import Components
 import MenuFilter from './MenuFilter';
+import ItemCard from './ItemCard';
 
 export default function Menu() {
   return (
@@ -22,6 +23,9 @@ export default function Menu() {
       </section>
       <section className='menu-section'>
         <MenuFilter />
+      </section>
+      <section className='menu-items-section'>
+        <ItemCard />
       </section>
     </div>
   );
