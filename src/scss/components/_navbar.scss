@@ -1,8 +1,11 @@
 @use '../abstracts/colours';
 
 .navbar {
+  // display: flex;
+  // flex-direction: column;
   background-color: colours.$primary-background;
   width: 100%;
+  height: 70px;
   position: sticky;
   top: 0px;
   z-index: 1;

@@ -6,16 +6,16 @@ import { Route, Routes } from 'react-router-dom';
 
 // Import Pages
 import Home from './pages/home/Home.jsx';
-import Menu from './pages/menu/Menu';
+import Menu from './pages/Menu/Menu';
 import BookATable from './pages/bookATable/BookATable';
 import Gallery from './pages/gallery/Gallery';
 import Contact from './pages/contact/Contact';
 import NotFound from './pages/notFound/NotFound';
 
 // Import Components
-import Header from './Components/Header/Header';
-import Navbar from './Components/Header/Navbar';
-import OpenOrClosedSign from './Components/OpenOrClosedSign/OpenOrClosedSign';
+import Header from './components/header/Header';
+import Navbar from './components/header/Navbar';
+import OpenOrClosedSign from './components/openOrClosedSign/OpenOrClosedSign';
 
 // Import Styles
 import './scss/styles.css';

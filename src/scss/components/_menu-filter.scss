@@ -1,0 +1,28 @@
+@use '../abstracts/colours';
+
+.menu-filter-bar {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  .filter-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    .refine-filter,
+    .sortBy-filter {
+      width: 240px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      padding: 0.5rem;
+      border: colours.$primary-black 1px solid;
+      border-radius: 25rem;
+      &:hover {
+        background-color: colours.$primary-black;
+        color: colours.$primary-background;
+      }
+    }
+  }
+}

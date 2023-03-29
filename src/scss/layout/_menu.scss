@@ -1,0 +1,12 @@
+.menu-page {
+  .disclaimer-content {
+    text-align: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  .menu-section {
+    position: sticky;
+    top: 70px; /* set this to the height of your navbar */
+    z-index: 1;
+  }
+}
