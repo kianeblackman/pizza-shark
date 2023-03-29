@@ -11,9 +11,14 @@
     gap: 2rem;
     .refine-filter,
     .sortBy-filter {
+      width: 240px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       gap: 2rem;
-      border: colours.$primary-black 1px solid;
       padding: 0.5rem;
+      border: colours.$primary-black 1px solid;
+      border-radius: 25rem;
     }
   }
 }

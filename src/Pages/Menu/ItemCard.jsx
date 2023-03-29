@@ -1,19 +1,34 @@
 import React from 'react';
 
 export default function ItemCard() {
-  return (
+  let itemArr = [
+    {
+      name: 'Pizza Shark',
+      description: 'A pizza with a shark fin on top',
+      category: 'Pizza',
+      price: 10.99,
+      img: 'https://i.imgur.com/4ZQ3Z9M.png',
+    },
+    {
+      name: 'asdfasfdasdf',
+      description: 'A pizza with a shark finasasgdfsgadfg on top',
+      category: 'Piagagasgzza',
+      price: 10.99,
+      img: 'https://i.imgur.com/4ZQ3Z9M.png',
+    },
+  ];
+  const itemList = itemArr.map((itemArr) => (
     <div className='item-card'>
       <div className='item-details'>
-        <h3>Item Name</h3>
-        <p>Item Description</p>
-        <h4>Item Category</h4>
+        <h3>{itemArr.name}</h3>
+        <p>{itemArr.description}</p>
+        <h4>{itemArr.category}</h4>
       </div>
-      <div className='item-img'>
-        <img src='/' alt='/' />
-      </div>
-      <div className='item-card-btn'>
-        <button>Add to Cart</button>
-      </div>
+    </div>
+  ));
+  return (
+    <div className='item-card'>
+      <div>{itemList}</div>
     </div>
   );
 }

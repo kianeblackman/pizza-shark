@@ -6,11 +6,11 @@ export default function MenuFilter() {
       <h2>Menu</h2>
       <div className='filter-container'>
         <div className='refine-filter'>
-          <button>Refine</button>
+          <p>Refine</p>
           <span>⇩</span>
         </div>
         <div className='sortBy-filter'>
-          <button>Sort By</button>
+          <p>Sort By</p>
           <span>⇩</span>
         </div>
       </div>

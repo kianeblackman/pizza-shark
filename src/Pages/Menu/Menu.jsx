@@ -9,7 +9,7 @@ export default function Menu() {
     <div className='menu-page'>
       <section className='disclaimer-section'>
         <div className='disclaimer-content'>
-          <h2>Disclaimer</h2>
+          <h2>⚠️ Disclaimer ⚠️</h2>
           <p>
             No actual sharks were harmed in the making of our pizza. Any
             resemblance to a shark fin or any other part of a shark is purely
@@ -25,15 +25,6 @@ export default function Menu() {
         <MenuFilter className='filter-container' />
       </section>
       <section className='menu-items-section'>
-        <ItemCard />
-        <ItemCard />
-        <ItemCard />
-        <ItemCard />
-        <ItemCard />
-        <ItemCard />
-        <ItemCard />
-        <ItemCard />
-        <ItemCard />
         <ItemCard />
       </section>
     </div>
