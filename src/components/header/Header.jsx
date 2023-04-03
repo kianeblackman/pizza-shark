@@ -1,6 +1,6 @@
 // Import Statments
 import React from 'react';
-import logo from '../../Assets/svg/pizza-shark-logo.svg';
+import logo from '../../assets/svg/pizza-shark-logo.svg';
 
 export default function Header() {
   return (

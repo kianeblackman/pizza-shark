@@ -4,8 +4,8 @@
 import React from 'react';
 
 // Import Images
-import image from '../../Assets/images/our-story.jpg';
-import logo from '../../Assets/svg/pizza-shark-logo.svg';
+import image from '../../assets/images/our-story.jpg';
+import logo from '../../assets/svg/pizza-shark-logo.svg';
 
 // Import Components
 import OrderHereButton from '../../components/buttons/OrderHereButton';
