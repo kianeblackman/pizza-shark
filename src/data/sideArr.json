@@ -2,63 +2,72 @@
   {
     "name": "Garlic Knots",
     "description": "Freshly baked, soft garlic knots served with marinara sauce.",
-    "tag": "vegetarian",
+    "type": "Veggitarian",
+    "tag": "side",
     "price": 4.99,
     "image": ""
   },
   {
     "name": "Parmesan Fries",
     "description": "Crispy fries tossed with parmesan cheese and herbs, served with a side of garlic aioli.",
-    "tag": "vegetarian",
+    "type": "Veggitarian",
+    "tag": "side",
     "price": 5.99,
     "image": ""
   },
   {
     "name": "Mozzarella Sticks",
     "description": "Golden brown mozzarella sticks served with marinara sauce.",
-    "tag": "vegetarian",
+    "type": "Veggitarian",
+    "tag": "side",
     "price": 5.99,
     "image": ""
   },
   {
     "name": "Caesar Salad",
     "description": "Fresh romaine lettuce, shaved parmesan cheese, and croutons, tossed in a classic Caesar dressing.",
-    "tag": "vegetarian",
+    "type": "Veggitarian",
+    "tag": "side",
     "price": 6.99,
     "image": ""
   },
   {
     "name": "Greek Salad",
     "description": "Mixed greens, cucumbers, red onions, kalamata olives, and feta cheese, tossed in a lemon herb vinaigrette.",
-    "tag": "vegetarian",
+    "type": "Veggitarian",
+    "tag": "side",
     "price": 7.99,
     "image": ""
   },
   {
     "name": "BBQ Wings",
     "description": "Crispy wings tossed in tangy BBQ sauce.",
-    "tag": "meat",
+    "type": "Meat",
+    "tag": "side",
     "price": 7.99,
     "image": ""
   },
   {
     "name": "Honey Mustard Wings",
     "description": "Crispy wings tossed in sweet and tangy honey mustard sauce.",
-    "tag": "meat",
+    "type": "Meat",
+    "tag": "side",
     "price": 7.99,
     "image": ""
   },
   {
     "name": "Buffalo Wings",
     "description": "Crispy wings tossed in spicy buffalo sauce.",
-    "tag": "meat",
+    "type": "Meat",
+    "tag": "side",
     "price": 7.99,
     "image": ""
   },
   {
     "name": "Lemon Pepper Wings",
     "description": "Crispy wings tossed in zesty lemon pepper seasoning.",
-    "tag": "meat",
+    "type": "Meat",
+    "tag": "side",
     "price": 7.99,
     "image": ""
   }
