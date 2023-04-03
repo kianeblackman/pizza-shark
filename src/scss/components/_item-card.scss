@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  // margin: 1rem;
   border: colours.$primary-black 1px solid;
   cursor: pointer;
   &:hover {
@@ -17,7 +16,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: left;
     height: 100%;
     padding: 1rem;
     gap: 1rem;
@@ -28,10 +26,14 @@
       .item-name {
         font-size: 1.8rem;
         font-weight: 600;
-        sup {
-          font-size: 0.6rem;
-          font-weight: 300;
-        }
+      }
+      .item-tag {
+        font-size: 0.6rem;
+        font-weight: 600;
+        width: fit-content;
+        padding: 0.3rem;
+        border: colours.$primary-black 1px solid;
+        border-radius: 6rem;
       }
       .item-description {
         font-size: 1rem;
@@ -41,20 +43,13 @@
     .item-sub-details {
       display: flex;
       justify-content: space-between;
-      align-items: center;
       width: 100%;
       gap: 1rem;
       .item-price {
+        width: 100%;
+        text-align: right;
         font-size: 1.2rem;
         font-weight: 600;
-      }
-      .item-tag {
-        font-size: 0.6rem;
-        font-weight: 600;
-        width: fit-content;
-        padding: 0.3rem;
-        border: colours.$primary-black 1px solid;
-        border-radius: 6rem;
       }
     }
   }
@@ -69,7 +64,7 @@
     cursor: pointer;
     &:hover {
       color: colours.$primary-background;
-      background-color: colours.$primary-black;
+      background-color: colours.$primary-green;
     }
   }
 }
