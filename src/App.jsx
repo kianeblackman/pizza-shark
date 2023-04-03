@@ -15,7 +15,7 @@ import NotFound from './pages/notFound/NotFound';
 // Import Components
 import Header from './components/header/Header';
 import Navbar from './components/header/Navbar';
-import OpenOrClosedSign from './components/openOrClosedSign/OpenOrClosedSign';
+// import OpenOrClosedSign from './components/openOrClosedSign/OpenOrClosedSign';
 
 // Import Styles
 import './scss/styles.css';
@@ -25,7 +25,7 @@ function App() {
     <div>
       <Header />
       <Navbar />
-      <OpenOrClosedSign />
+      {/* <OpenOrClosedSign /> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/menu' element={<Menu />} />
