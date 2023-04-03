@@ -8,8 +8,8 @@ export default function PizzaList() {
       <div className='item-details'>
         <h3>{pizzaArr.name}</h3>
         <p>{pizzaArr.description}</p>
-        <h3>{pizzaArr.price}</h3>
-        <h4>{pizzaArr.tag}</h4>
+        <h3 className='item-price'>{pizzaArr.price}</h3>
+        <h3 className='item-tag'>{pizzaArr.tag}</h3>
       </div>
       <div className='item-price'></div>
       <div>
