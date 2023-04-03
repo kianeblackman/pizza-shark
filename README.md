@@ -1,4 +1,4 @@
-# Pizza Shark
+# 🍕 Pizza Shark
 
 Pizza Shark - where the only thing sharper than our teeth is our taste in pizza! Whether you're in the mood for classic margherita or something a little more adventurous, we've got you covered.
 
