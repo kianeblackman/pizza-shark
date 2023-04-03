@@ -7,11 +7,12 @@
   padding: 1rem;
   border-top: colours.$primary-black 1px solid;
   border-bottom: colours.$primary-black 1px solid;
- 
+
   .filter-container {
     display: flex;
     align-items: center;
     gap: 2rem;
+
     .refine-filter,
     .sortBy-filter {
       width: 240px;
@@ -22,6 +23,7 @@
       padding: 0.5rem;
       border: colours.$primary-black 1px solid;
       border-radius: 25rem;
+
       &:hover {
         background-color: colours.$primary-black;
         color: colours.$primary-background;
