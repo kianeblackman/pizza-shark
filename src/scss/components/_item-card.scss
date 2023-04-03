@@ -14,19 +14,53 @@
     }
   }
   .item-details {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    height: 100%;
     padding: 1rem;
-    .item-price {
-      font-size: 1rem;
-      font-weight: 600;
+    gap: 1rem;
+    .item-main-details {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      .item-name {
+        font-size: 1.8rem;
+        font-weight: 600;
+        sup {
+          font-size: 0.6rem;
+          font-weight: 300;
+        }
+      }
+      .item-description {
+        font-size: 1rem;
+        font-weight: 300;
+      }
     }
-    .item-tag {
-      padding: 0.5rem;
-      border: colours.$primary-black 1px solid;
-      border-radius: 6rem;
+    .item-sub-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      gap: 1rem;
+      .item-price {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+      .item-tag {
+        font-size: 0.6rem;
+        font-weight: 600;
+        width: fit-content;
+        padding: 0.3rem;
+        border: colours.$primary-black 1px solid;
+        border-radius: 6rem;
+      }
     }
   }
   .add-to-cart {
+    font-size: 1rem;
+    font-weight: 300;
     width: 100%;
     padding: 1rem;
     border: none;
