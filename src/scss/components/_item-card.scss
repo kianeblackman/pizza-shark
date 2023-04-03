@@ -8,16 +8,17 @@
   border: colours.$primary-black 1px solid;
   cursor: pointer;
   &:hover {
-    background-color: colours.$secondary-yellow;
+    background-color: colours.$primary-yellow;
     .add-to-cart {
-      background-color: colours.$secondary-yellow;
+      background-color: colours.$primary-yellow;
     }
   }
   .item-details {
     align-items: center;
     padding: 1rem;
     .item-price {
-      background-color: aquamarine;
+      font-size: 1rem;
+      font-weight: 600;
     }
     .item-tag {
       padding: 0.5rem;
