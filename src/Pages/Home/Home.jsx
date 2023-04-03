@@ -3,18 +3,18 @@
 // Import Statements
 import React from 'react';
 
-// // Import Images
-// import image from '../../Assets/images/our-story.jpg';
-// import logo from '../../Assets/svg/pizza-shark-logo.svg';
+// Import Images
+import image from '../../Assets/images/our-story.jpg';
+import logo from '../../Assets/svg/pizza-shark-logo.svg';
 
-// // Import Components
-// import OrderHereButton from '../../components/buttons/OrderHereButton';
-// import ReviewCarousel from './ReviewCarousel';
+// Import Components
+import OrderHereButton from '../../components/buttons/OrderHereButton';
+import ReviewCarousel from './ReviewCarousel';
 
 export default function Home() {
   return (
     <div className='home-page'>
-      {/* <section className='highlight-section'>
+      <section className='highlight-section'>
         <div className='highlight-content'>
           <h1>You're gonna need a bigger belt.</h1>
           <OrderHereButton />
@@ -22,7 +22,7 @@ export default function Home() {
       </section>
       <section className='our-story-section'>
         <div className='our-story-content'>
-          <div className='className=our-story-text'>
+          <div className='our-story-text'>
             <img src={image} alt='Our Story' />
           </div>
           <div className='our-story-text'>
@@ -84,7 +84,7 @@ export default function Home() {
             01234 567890
           </p>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 }
