@@ -1,10 +1,13 @@
 @use '../abstracts/colours';
 
 .menu-filter-bar {
-  background-color: red;
+  background-color: colours.$primary-background;
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  border-top: colours.$primary-black 1px solid;
+  border-bottom: colours.$primary-black 1px solid;
+ 
   .filter-container {
     display: flex;
     align-items: center;

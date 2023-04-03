@@ -24,9 +24,9 @@ export default function Menu() {
           </p>
         </div>
       </section>
-      <section className='menu-section'>
+      {/* <section className='menu-section'>
         <MenuFilter className='filter-container' />
-      </section>
+      </section> */}
       <section className='menu-items-section'>
         <div>
           <h2 className='menu-item-heading'>Sides</h2>

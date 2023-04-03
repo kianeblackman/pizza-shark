@@ -1,21 +1,22 @@
+@use '../abstracts/colours';
+
 .menu-page {
   .disclaimer-content {
     text-align: center;
     text-align: center;
     padding: 2rem;
   }
-  .menu-section {
-    position: sticky;
-    top: 70px; /* set this to the height of your navbar */
-    z-index: 1;
-  }
   .menu-item-heading {
     display: flex;
+    position: sticky;
+    top: 70px;
     justify-content: space-between;
     align-items: center;
     padding: 12px;
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #e0e0e0;
+    background-color: colours.$primary-background;
+    border-bottom: colours.$primary-black 1px solid;
+    border-top: colours.$primary-black 1px solid;
+    margin-top: -1px;
   }
   .menu-grid {
     display: grid;
