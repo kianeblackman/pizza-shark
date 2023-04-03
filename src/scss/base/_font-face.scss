@@ -1,7 +1,8 @@
 @use '../abstracts/colours';
 
 body {
-  font-family: 'Space Grotesk', sans-serif;
+  // font-family: 'Space Grotesk', sans-serif;
+  font-family: sans-serif;
   color: colours.$primary-black;
 }
 
