@@ -6,45 +6,66 @@
   justify-content: space-between;
   border: colours.$primary-black 1px solid;
   cursor: pointer;
+
   &:hover {
     background-color: colours.$primary-yellow;
     .add-to-cart {
       background-color: colours.$primary-yellow;
     }
   }
+
   .item-details {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
     padding: 1rem;
-    gap: 1rem;
+
+    .item-main-container {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        display: flex;
+        align-self: center;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
     .item-main-details {
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
-      .item-name {
-        font-size: 1.8rem;
-        font-weight: 600;
-      }
+
       .item-tag {
         font-size: 0.6rem;
         font-weight: 600;
         width: fit-content;
+        margin-bottom: -1rem;
         padding: 0.3rem;
+        
         border: colours.$primary-black 1px solid;
         border-radius: 6rem;
       }
+
+      .item-name {
+        font-size: 1.8rem;
+        font-weight: 600;
+      }
+
       .item-description {
         font-size: 1rem;
         font-weight: 300;
       }
     }
+
     .item-sub-details {
       display: flex;
       justify-content: space-between;
       width: 100%;
       gap: 1rem;
+
       .item-price {
         width: 100%;
         text-align: right;
@@ -53,6 +74,7 @@
       }
     }
   }
+
   .add-to-cart {
     font-size: 1rem;
     font-weight: 300;
@@ -62,6 +84,7 @@
     border-top: colours.$primary-black 1px solid;
     background-color: colours.$primary-background;
     cursor: pointer;
+
     &:hover {
       color: colours.$primary-background;
       background-color: colours.$primary-green;
