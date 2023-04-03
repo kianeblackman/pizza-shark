@@ -1,4 +1,7 @@
+// Import Statments
 import React from 'react';
+
+// Import Components
 import ReviewCard from './ReviewCard.jsx';
 
 export default function ReviewCarousel() {

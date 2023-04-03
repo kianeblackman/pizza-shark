@@ -1,9 +1,11 @@
+//* Description: This is the home page for the Pizza Shark website
+
 // Import Statements
 import React from 'react';
 
 // Import Images
-import image from '../../Assets/images/our-story.jpg';
-import logo from '../../Assets/svg/pizza-shark-logo.svg';
+import image from '../../assets/images/our-story.jpg';
+import logo from '../../assets/svg/pizza-shark-logo.svg';
 
 // Import Components
 import OrderHereButton from '../../components/buttons/OrderHereButton';
@@ -20,7 +22,7 @@ export default function Home() {
       </section>
       <section className='our-story-section'>
         <div className='our-story-content'>
-          <div className='className=our-story-text'>
+          <div className='our-story-text'>
             <img src={image} alt='Our Story' />
           </div>
           <div className='our-story-text'>
