@@ -12,7 +12,7 @@
     top: 70px;
     justify-content: space-between;
     align-items: center;
-    padding: 12px;
+    padding: 1rem;
     background-color: colours.$primary-yellow;
     border-bottom: colours.$primary-black 1px solid;
     border-top: colours.$primary-black 1px solid;
@@ -20,6 +20,8 @@
   }
   .menu-grid {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    margin: 2rem;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   }
 }
