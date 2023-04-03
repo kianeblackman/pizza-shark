@@ -11,7 +11,7 @@
   {
     "name": "Veggie Sharknado",
     "description": "A tornado of fresh veggies like spinach, mushrooms, and red peppers!",
-    "type": "Veggitarian",
+    "type": "Vegetarian",
     "tag": "pizza",
     "price": 12.99,
     "image": "../../src/assets/svg/pizza.svg"
@@ -19,7 +19,7 @@
   {
     "name": "Margher-shark-a",
     "description": "Simple and classic, with fresh basil, tomatoes, and mozzarella!",
-    "type": "Veggitarian",
+    "type": "Vegetarian",
     "tag": "pizza",
     "price": 11.99,
     "image": "../../src/assets/svg/pizza.svg"
@@ -27,7 +27,7 @@
   {
     "name": "Pesto Predat-or",
     "description": "Basil pesto sauce with roasted red peppers and feta cheese!",
-    "type": "Veggitarian",
+    "type": "Vegetarian",
     "tag": "pizza",
     "price": 12.99,
     "image": "../../src/assets/svg/pizza.svg"
@@ -51,7 +51,7 @@
   {
     "name": "Great White Greek",
     "description": "Kalamata olives, feta cheese, and red onions, oh my!",
-    "type": "Veggitarian",
+    "type": "Vegetarian",
     "tag": "pizza",
     "price": 12.99,
     "image": "../../src/assets/svg/pizza.svg"
@@ -129,7 +129,7 @@
     "image": "../../src/assets/svg/pizza.svg"
   },
   {
-    "name": "Cheesy Hammerhead Breaded",
+    "name": "Cheesy Breaded",
     "description": "A cheesy breadstick crust, loaded with sauce, cheese, and your choice of toppings!",
     "type": "Meat",
     "tag": "pizza",
