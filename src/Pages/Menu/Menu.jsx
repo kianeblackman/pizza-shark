@@ -2,7 +2,10 @@ import React from 'react';
 
 // Import Components
 import MenuFilter from './MenuFilter';
-import ItemCard from './ItemCard';
+import PizzaList from './PizzaList';
+import SideList from './SideList';
+import DrinkList from './DrinkList';
+import DessertList from './DessertList';
 
 export default function Menu() {
   return (
@@ -21,11 +24,26 @@ export default function Menu() {
           </p>
         </div>
       </section>
-      <section className='menu-section'>
+      {/* <section className='menu-section'>
         <MenuFilter className='filter-container' />
-      </section>
+      </section> */}
       <section className='menu-items-section'>
-        <ItemCard />
+        <div>
+          <h2 className='menu-item-heading'>Sides</h2>
+          <SideList />
+        </div>
+        <div>
+          <h2 className='menu-item-heading'>Pizzas</h2>
+          <PizzaList />
+        </div>
+        <div>
+          <h2 className='menu-item-heading'>Drinks</h2>
+          <DrinkList />
+        </div>
+        <div>
+          <h2 className='menu-item-heading'>Dessert</h2>
+          <DessertList />
+        </div>
       </section>
     </div>
   );

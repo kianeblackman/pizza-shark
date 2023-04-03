@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Soda",
+    "description": "Coke, Diet Coke, Sprite, or Fanta.",
+    "tag": "drink",
+    "price": 1.99,
+    "image": ""
+  },
+  {
+    "name": "Coffee",
+    "description": "Freshly brewed coffee, hot or iced.",
+    "tag": "drink",
+    "price": 1.99,
+    "image": ""
+  },
+  {
+    "name": "Tea",
+    "description": "Hot or iced tea, sweetened or unsweetened.",
+    "tag": "drink",
+    "price": 1.99,
+    "image": ""
+  },
+  {
+    "name": "Iced Tea",
+    "description": "Refreshing iced tea, sweetened or unsweetened.",
+    "tag": "drink",
+    "price": 1.99,
+    "image": ""
+  },
+  {
+    "name": "Lemonade",
+    "description": "Freshly squeezed lemonade, sweetened or unsweetened.",
+    "tag": "drink",
+    "price": 2.99,
+    "image": ""
+  },
+  {
+    "name": "Beer",
+    "description": "Choose from a selection of local craft beers.",
+    "tag": "drink",
+    "price": 4.99,
+    "image": ""
+  },
+  {
+    "name": "Wine",
+    "description": "Red or white wine, by the glass or bottle.",
+    "tag": "drink",
+    "price": 5.99,
+    "image": ""
+  }
+]

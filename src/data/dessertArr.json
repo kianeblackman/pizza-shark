@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Chocolate Chip Cookie",
+    "description": "Freshly baked chocolate chip cookie.",
+    "tag": "dessert",
+    "price": 2.99,
+    "image": ""
+  },
+  {
+    "name": "Cheesecake",
+    "description": "New York-style cheesecake with a graham cracker crust.",
+    "tag": "dessert",
+    "price": 3.99,
+    "image": ""
+  },
+  {
+    "name": "Cannoli",
+    "description": "Crispy pastry shell filled with sweet ricotta cheese and chocolate chips.",
+    "tag": "dessert",
+    "price": 3.99,
+    "image": ""
+  },
+  {
+    "name": "Tiramisu",
+    "description": "Layered sponge cake soaked in espresso and marsala wine, topped with mascarpone cheese and cocoa powder.",
+    "tag": "dessert",
+    "price": 4.99,
+    "image": ""
+  }
+]

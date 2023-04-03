@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Jawsome Pepperoni",
+    "description": "A carnivore's delight with pepperoni, sausage, and bacon!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "Veggie Sharknado",
+    "description": "A tornado of fresh veggies like spinach, mushrooms, and red peppers!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "Margher-shark-a",
+    "description": "Simple and classic, with fresh basil, tomatoes, and mozzarella!",
+    "tag": "pizza",
+    "price": 11.99,
+    "image": ""
+  },
+  {
+    "name": "Pesto Predat-or",
+    "description": "Basil pesto sauce with roasted red peppers and feta cheese!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "Sausage Shark Party",
+    "description": "Sausage, onions, and green peppers, all invited to the party!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "Hawaiian Hammerhead",
+    "description": "A tropical paradise on a pizza with ham and pineapple!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "Great White Greek",
+    "description": "Kalamata olives, feta cheese, and red onions, oh my!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "BBQ Hammerhead Chicken",
+    "description": "Grilled chicken, red onions, and a tangy BBQ sauce!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "Pizzaball Barracuda",
+    "description": "pizzaballs, onions, and green peppers, all baked to perfection!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "Veggie Reef",
+    "description": "A garden's worth of veggies, including zucchini, broccoli, and mushrooms!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "Buffalo Bull Shark Chicken",
+    "description": "Spicy buffalo chicken, blue cheese crumbles, and a drizzle of ranch!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "Bacon Bite",
+    "description": "Bacon, bacon, and more bacon, with a side of bacon!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "Capre-shark",
+    "description": "Fresh tomatoes, basil, and mozzarella, with a balsamic glaze!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "Pizza Jaws Lover's Delight",
+    "description": "A pizzay masterpiece with pepperoni, sausage, bacon, and ham!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "Vegan Sharknivore",
+    "description": "A vegan delight with vegan cheese, red onions, and mushrooms!",
+    "tag": "vegan",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "Spicy Mako Italian",
+    "description": "Spicy Italian sausage, banana peppers, and red onions, for a kick of flavor!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "Cheesy Hammerhead Breaded",
+    "description": "A cheesy breadstick crust, loaded with sauce, cheese, and your choice of toppings!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  }
+]
