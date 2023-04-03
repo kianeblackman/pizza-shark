@@ -1,0 +1,121 @@
+[
+  {
+    "name": "pizzahead",
+    "description": "A carnivore's delight with pepperoni, sausage, and bacon!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "Veggie Vortex",
+    "description": "A tornado of fresh veggies like spinach, mushrooms, and red peppers!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "The Margherita",
+    "description": "Simple and classic, with fresh basil, tomatoes, and mozzarella!",
+    "tag": "pizza",
+    "price": 11.99,
+    "image": ""
+  },
+  {
+    "name": "Pesto Perfecto",
+    "description": "Basil pesto sauce with roasted red peppers and feta cheese!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "The Sausage Party",
+    "description": "Sausage, onions, and green peppers, all invited to the party!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "The Hawaiian",
+    "description": "A tropical paradise on a pizza with ham and pineapple!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "The Greek",
+    "description": "Kalamata olives, feta cheese, and red onions, oh my!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "The BBQ Chicken",
+    "description": "Grilled chicken, red onions, and a tangy BBQ sauce!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "The pizzaball Madness",
+    "description": "pizzaballs, onions, and green peppers, all baked to perfection!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "The Veggie Medley",
+    "description": "A garden's worth of veggies, including zucchini, broccoli, and mushrooms!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "The Buffalo Chicken",
+    "description": "Spicy buffalo chicken, blue cheese crumbles, and a drizzle of ranch!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "The Baconator",
+    "description": "Bacon, bacon, and more bacon, with a side of bacon!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "The Caprese",
+    "description": "Fresh tomatoes, basil, and mozzarella, with a balsamic glaze!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "The pizza Lover's Delight",
+    "description": "A pizzay masterpiece with pepperoni, sausage, bacon, and ham!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "The Vegan Veggie",
+    "description": "A vegan delight with vegan cheese, red onions, and mushrooms!",
+    "tag": "vegan",
+    "price": 12.99,
+    "image": ""
+  },
+  {
+    "name": "The Spicy Italian",
+    "description": "Spicy Italian sausage, banana peppers, and red onions, for a kick of flavor!",
+    "tag": "pizza",
+    "price": 13.99,
+    "image": ""
+  },
+  {
+    "name": "The Cheesy Breaded",
+    "description": "A cheesy breadstick crust, loaded with sauce, cheese, and your choice of toppings!",
+    "tag": "pizza",
+    "price": 12.99,
+    "image": ""
+  }
+]

@@ -1,15 +1,15 @@
 // Import Statements
 import React from 'react';
-import itemArr from '../../data/itemArr';
+import pizzaArr from '../../data/pizzaArr';
 
 export default function ItemCard() {
-  const itemList = itemArr.map((itemArr, index) => (
+  const itemList = pizzaArr.map((pizzaArr, index) => (
     <div className='item-card' key={index}>
       <div className='item-details'>
-        <h3>{itemArr.name}</h3>
-        <p>{itemArr.description}</p>
-        <h3>{itemArr.price}</h3>
-        <h4>{itemArr.tag}</h4>
+        <h3>{pizzaArr.name}</h3>
+        <p>{pizzaArr.description}</p>
+        <h3>{pizzaArr.price}</h3>
+        <h4>{pizzaArr.tag}</h4>
       </div>
       <div className='item-price'></div>
       <div>
