@@ -1,7 +1,6 @@
 // Import Statements
 import React from 'react';
 import sideArr from '../../data/sideArr';
-import icon from '../../assets/svg/vector.svg';
 
 export default function ItemList() {
   const itemList = sideArr.map((sideArr, index) => (
@@ -10,7 +9,7 @@ export default function ItemList() {
         <div className='item-main-container'>
           <div className='item-main-details'>
             <h3 className='item-tag'>{sideArr.type}</h3>
-            <img src={icon} alt='icon' />
+            {/* <img src={icon} alt='icon' /> */}
             <h3 className='item-name'>{sideArr.name}</h3>
             <p className='item-description'>{sideArr.description}</p>
           </div>
