@@ -6,22 +6,28 @@
     text-align: center;
     padding: 2rem;
   }
+
   .menu-item-heading {
+    z-index: 1;
     display: flex;
     position: sticky;
-    top: 70px;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+
+    top: 4.9rem;
+    height: 5rem;
+    padding: 0 0 0 1rem;
+
     background-color: colours.$primary-yellow;
     border-bottom: colours.$primary-black 1px solid;
     border-top: colours.$primary-black 1px solid;
-    margin-top: -1px;
   }
+
   .menu-grid {
     display: grid;
-    padding: 2rem;
-    gap: 2rem;
     grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 2rem;
+    padding: 2rem;
   }
 }

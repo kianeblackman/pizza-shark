@@ -6,10 +6,13 @@ export default function ItemList() {
   const itemList = sideArr.map((sideArr, index) => (
     <div className='item-card' key={index}>
       <div className='item-details'>
-        <div className='item-main-details'>
-          <h3 className='item-name'>{sideArr.name}</h3>
-          <h3 className='item-tag'>{sideArr.type}</h3>
-          <p className='item-description'>{sideArr.description}</p>
+        <div className='item-main-container'>
+          <div className='item-main-details'>
+            <h3 className='item-tag'>{sideArr.type}</h3>
+            {/* <img src={icon} alt='icon' /> */}
+            <h3 className='item-name'>{sideArr.name}</h3>
+            <p className='item-description'>{sideArr.description}</p>
+          </div>
         </div>
         <div className='item-sub-details'>
           <h3 className='item-price'>{sideArr.price}</h3>

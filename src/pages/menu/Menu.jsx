@@ -29,19 +29,19 @@ export default function Menu() {
       </section> */}
       <section className='menu-items-section'>
         <div>
-          <h2 className='menu-item-heading'>Sides</h2>
+          <h2 className='menu-item-heading'>Sides 🥗</h2>
           <SideList />
         </div>
         <div>
-          <h2 className='menu-item-heading'>Pizzas</h2>
+          <h2 className='menu-item-heading'>Pizzas 🍕</h2>
           <PizzaList />
         </div>
         <div>
-          <h2 className='menu-item-heading'>Drinks</h2>
+          <h2 className='menu-item-heading'>Drinks 🥤</h2>
           <DrinkList />
         </div>
         <div>
-          <h2 className='menu-item-heading'>Dessert</h2>
+          <h2 className='menu-item-heading'>Dessert 🍨</h2>
           <DessertList />
         </div>
       </section>
