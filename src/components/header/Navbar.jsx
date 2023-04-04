@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
   return (
     <div className='navbar'>
-      <hr className='hr-heavy' />
-      <hr className='hr-light' />
+      <hr className='hr--heavy' />
+      <hr className='hr--light' />
       <ul>
         <li>
           <Link to='/' className='navbar-link'>
@@ -40,8 +40,8 @@ export default function Navbar() {
           </Link>
         </li>
       </ul>
-      <hr className='hr-light' />
-      <hr className='hr-heavy' />
+      <hr className='hr--light' />
+      <hr className='hr--heavy' />
     </div>
   );
 }

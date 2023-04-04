@@ -5,7 +5,7 @@
     "type": "Meat",
     "tag": "pizza",
     "price": 13.99,
-    "image": "../../src/assets/svg/pizza.svg",
+    "image": "svg/pizza.svg",
     "alt": "Jawsome Pepperoni Icon"
   },
   {
