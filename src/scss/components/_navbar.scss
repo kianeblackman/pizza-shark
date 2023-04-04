@@ -15,17 +15,14 @@
     list-style-type: none;
     justify-content: center;
     gap: 3rem;
+    color: colours.$primary-red;
 
     li {
-      color: colours.$primary-red;
       font-size: 1.2rem;
       font-weight: 600;
       cursor: pointer;
 
       .navbar-link {
-        display: inline-block;
-        position: relative;
-
         &:link,
         &:visited,
         &:active {
@@ -38,18 +35,14 @@
         }
       }
     }
-
-    span {
-      color: colours.$primary-red;
-    }
   }
 
-  .hr-heavy {
+  .hr--heavy {
     margin: 0;
     border: 3px solid colours.$primary-red;
   }
 
-  .hr-light {
+  .hr--light {
     margin: 0;
     border: 1px solid colours.$primary-red;
   }
