@@ -23,8 +23,10 @@ Stay tuned for updates on the progress of Pizza Shark, and thank you for checkin
 
 ## 🖥️ Screenshots
 
+### Home Page
 ![home-page](https://user-images.githubusercontent.com/109099445/230180862-ebafd7e4-b5aa-48b9-b71a-711e76933dc9.jpg)
 
+### Menu Page
 ![menu-page](https://user-images.githubusercontent.com/109099445/230181450-ba27148b-993d-49e7-b614-a7df0ea67337.jpg)
 
 ## 💬 Feedback
