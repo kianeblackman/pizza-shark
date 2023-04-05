@@ -10,6 +10,7 @@ export default function OpenOrClosedSign() {
         currentDate.getFullYear(),
         currentDate.getMonth(),
         currentDate.getDate(),
+        /* Below set's the opining time for the sticker */
         10,
         0,
         0
@@ -18,6 +19,7 @@ export default function OpenOrClosedSign() {
         currentDate.getFullYear(),
         currentDate.getMonth(),
         currentDate.getDate(),
+        /* Below set's the closing time for the sticker */
         22,
         0,
         0
@@ -34,7 +36,7 @@ export default function OpenOrClosedSign() {
   }, []);
 
   return (
-    <div className='open-or-closed-sign'>
+    <div className='flying-sticker'>
       <h3>
         We're
         <br />
