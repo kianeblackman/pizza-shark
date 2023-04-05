@@ -21,6 +21,12 @@ Stay tuned for updates on the progress of Pizza Shark, and thank you for checkin
 [![vite](https://img.shields.io/badge/vite-BC36FD?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![netlify](https://img.shields.io/badge/netlify-115482?style=for-the-badge&logo=netlify&logoColor=white)](https://vitejs.dev/)
 
+## 🖥️ Screenshots
+
+![home-page](https://user-images.githubusercontent.com/109099445/230180862-ebafd7e4-b5aa-48b9-b71a-711e76933dc9.jpg)
+
+![menu-page](https://user-images.githubusercontent.com/109099445/230181450-ba27148b-993d-49e7-b614-a7df0ea67337.jpg)
+
 ## 💬 Feedback
 
 If you have any feedback, please reach out to me at kianeblackman@gmail.com
