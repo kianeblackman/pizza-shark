@@ -1,7 +1,6 @@
 import React from 'react';
 
 // Import Components
-import MenuFilter from './MenuFilter';
 import PizzaList from './PizzaList';
 import SideList from './SideList';
 import DrinkList from './DrinkList';
@@ -10,9 +9,6 @@ import DessertList from './DessertList';
 export default function Menu() {
   return (
     <div className='menu-page'>
-      {/* <section className='menu-section'>
-        <MenuFilter className='filter-container' />
-      </section> */}
       <section className='menu-items-section'>
         <div>
           <h2 className='menu-item-heading'>Sides 🥗</h2>
@@ -31,6 +27,7 @@ export default function Menu() {
           <DessertList />
         </div>
       </section>
+      <hr />
       <section className='disclaimer-section'>
         <div className='disclaimer-content'>
           <h2>⚠️ Disclaimer ⚠️</h2>

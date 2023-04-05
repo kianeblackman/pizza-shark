@@ -24,7 +24,9 @@ export default function Home() {
         <div className='our-story-content'>
           {/* <img src={image} alt='Our Story' /> */}
           <div className='our-story-text'>
-            <h2>Our Story</h2>
+            <h2>
+              <span>📖 </span>Our Story
+            </h2>
             <p>
               Welcome to Pizza Shark, where the love for pizza and sharks
               collide! We're Max 🧑🏾‍🦱, Sam 👩🏽‍🦱, and Lucy 👩🏼‍🦰, and we're the proud

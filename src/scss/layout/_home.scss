@@ -9,6 +9,7 @@
     .highlight-content {
       background: colours.$primary-blue url('../assets/images/hero-image.jpg')
         no-repeat center center;
+      background-attachment: fixed;
       background-size: cover;
       display: flex;
       flex-direction: column;
