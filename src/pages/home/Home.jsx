@@ -22,9 +22,7 @@ export default function Home() {
       </section>
       <section className='our-story-section'>
         <div className='our-story-content'>
-          <div className='our-story-text'>
-            <img src={image} alt='Our Story' />
-          </div>
+          {/* <img src={image} alt='Our Story' /> */}
           <div className='our-story-text'>
             <h2>Our Story</h2>
             <p>
