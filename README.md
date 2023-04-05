@@ -1,6 +1,8 @@
 # 🍕 Pizza Shark
 
-Pizza Shark - where the only thing sharper than our teeth is our taste in pizza! Whether you're in the mood for classic margherita or something a little more adventurous, we've got you covered.
+### Pizza Shark - where the only thing sharper than our teeth is our taste in pizza! Whether you're in the mood for classic margherita or something a little more adventurous, we've got you covered.
+
+## 🔗 Project link [here](pizza-shark.netlify.app/)
 
 The idea behind this project was to create a mock pizzaria website that captures the playful nature of a pizzeria I wouldn't hesitate to eat at while also delivering a user-friendly experience.
 
