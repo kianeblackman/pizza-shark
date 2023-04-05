@@ -5,7 +5,7 @@
     "type": "Meat",
     "tag": "pizza",
     "price": 13.99,
-    "image": "svg/pizza.svg",
+    "image": "svg/pizza-jawsome-pepperoni.svg",
     "alt": "Jawsome Pepperoni Icon"
   },
   {
@@ -14,7 +14,7 @@
     "type": "Vegetarian",
     "tag": "pizza",
     "price": 12.99,
-    "image": "../../src/assets/svg/pizza.svg"
+    "image": "svg/pizza-veggie-sharknado.svg"
   },
   {
     "name": "Margher-shark-a",
@@ -22,7 +22,7 @@
     "type": "Vegetarian",
     "tag": "pizza",
     "price": 11.99,
-    "image": "../../src/assets/svg/pizza.svg"
+    "image": "svg/pizza-margher-shark-a.svg"
   },
   {
     "name": "Pesto Predat-or",
@@ -30,7 +30,7 @@
     "type": "Vegetarian",
     "tag": "pizza",
     "price": 12.99,
-    "image": "../../src/assets/svg/pizza.svg"
+    "image": "svg/pizza-pesto-predat-or.svg"
   },
   {
     "name": "Sausage Shark Party",
@@ -38,7 +38,7 @@
     "type": "Meat",
     "tag": "pizza",
     "price": 13.99,
-    "image": "../../src/assets/svg/pizza.svg"
+    "image": "svg/pizza-sausageshark-party.svg"
   },
   {
     "name": "Hawaiian Hammerhead",
@@ -46,23 +46,7 @@
     "type": "Meat",
     "tag": "pizza",
     "price": 12.99,
-    "image": "../../src/assets/svg/pizza.svg"
-  },
-  {
-    "name": "Great White Greek",
-    "description": "Kalamata olives, feta cheese, and red onions, oh my!",
-    "type": "Vegetarian",
-    "tag": "pizza",
-    "price": 12.99,
-    "image": "../../src/assets/svg/pizza.svg"
-  },
-  {
-    "name": "BBQ Hammerhead Chicken",
-    "description": "Grilled chicken, red onions, and a tangy BBQ sauce!",
-    "type": "Meat",
-    "tag": "pizza",
-    "price": 13.99,
-    "image": "../../src/assets/svg/pizza.svg"
+    "image": "svg/pizza-hawaiian-hammerhead.svg"
   },
   {
     "name": "Pizzaball Barracuda",
@@ -70,7 +54,7 @@
     "type": "Meat",
     "tag": "pizza",
     "price": 13.99,
-    "image": "../../src/assets/svg/pizza.svg"
+    "image": "svg/pizza-pizzaball-barracuda.svg"
   },
   {
     "name": "Veggie Reef",
@@ -78,23 +62,7 @@
     "type": "Vegan",
     "tag": "pizza",
     "price": 12.99,
-    "image": "../../src/assets/svg/pizza.svg"
-  },
-  {
-    "name": "Buffalo Bull Shark Chicken",
-    "description": "Spicy buffalo chicken, blue cheese crumbles, and a drizzle of ranch!",
-    "type": "Meat",
-    "tag": "pizza",
-    "price": 13.99,
-    "image": "../../src/assets/svg/pizza.svg"
-  },
-  {
-    "name": "Bacon Bite",
-    "description": "Bacon, bacon, and more bacon, with a side of bacon!",
-    "type": "Meat",
-    "tag": "pizza",
-    "price": 13.99,
-    "image": "../../src/assets/svg/pizza.svg"
+    "image": "svg/pizza-veggie-reef.svg"
   },
   {
     "name": "Capre-shark",
@@ -102,7 +70,7 @@
     "type": "Vegan",
     "tag": "pizza",
     "price": 12.99,
-    "image": "../../src/assets/svg/pizza.svg"
+    "image": "svg/pizza-capre-shark.svg"
   },
   {
     "name": "Pizza Jaws Lover's Delight",
@@ -110,30 +78,14 @@
     "type": "Meat",
     "tag": "pizza",
     "price": 13.99,
-    "image": "../../src/assets/svg/pizza.svg"
+    "image": "svg/pizza-pizza-jaws-lover's-delight.svg"
   },
   {
     "name": "Vegan Sharknivore",
-    "description": "A vegan delight with egan cheese, red onions, and mushrooms!",
+    "description": "A vegan delight with vegan cheese, red onions, and mushrooms!",
     "type": "Vegan",
     "tag": "pizza",
     "price": 12.99,
-    "image": "../../src/assets/svg/pizza.svg"
-  },
-  {
-    "name": "Spicy Mako Italian",
-    "description": "Spicy Italian sausage, banana peppers, and red onions, for a kick of flavor!",
-    "type": "Meat",
-    "tag": "pizza",
-    "price": 13.99,
-    "image": "../../src/assets/svg/pizza.svg"
-  },
-  {
-    "name": "Cheesy Breaded",
-    "description": "A cheesy breadstick crust, loaded with sauce, cheese, and your choice of toppings!",
-    "type": "Meat",
-    "tag": "pizza",
-    "price": 12.99,
-    "image": "../../src/assets/svg/pizza.svg"
+    "image": "svg/pizza-vegan-sharknivore.svg"
   }
 ]
