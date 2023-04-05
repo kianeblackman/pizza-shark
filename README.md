@@ -2,7 +2,7 @@
 
 Pizza Shark - where the only thing sharper than our teeth is our taste in pizza! Whether you're in the mood for classic margherita or something a little more adventurous, we've got you covered.
 
-The idea behind this project was to create a fake pizzaria website that captures the playful nature of a pizzeria I wouldn't hesitate to eat at while also delivering a user-friendly experience.
+The idea behind this project was to create a mock pizzaria website that captures the playful nature of a pizzeria I wouldn't hesitate to eat at while also delivering a user-friendly experience.
 
 To achieve this, I started by wireframing the website using Figma. From there, I used a tech stack consisting of Scss, Vite, React, and Javascript to bring the wireframes to life. This stack allowed me to create a website that is both visually stunning and highly performant.
 
